@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/how-to-js/angular-webpack/issues"
   },
-  "homepage": "https://github.com/how-to-js/angular-webpack#readme"
+  "homepage": "https://github.com/how-to-js/angular-webpack#readme",
+  "dependencies": {
+    "webpack": "^5.65.0"
+  }
 }
