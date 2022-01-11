@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/how-to-js/angular-webpack#readme",
   "dependencies": {
+    "@angular/core": "^13.1.1",
+    "@angular/platform-browser": "^13.1.1",
+    "@angular/platform-browser-dynamic": "^13.1.1",
     "webpack": "^5.65.0"
   },
   "devDependencies": {
