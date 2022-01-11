@@ -11,8 +11,15 @@ module.exports = {
         use: ["ts-loader", "angular2-template-loader"],
       },
       {
-        test: /\.html$/,
-        use: ["raw-loader"],
+        test: /\.(html|css)$/,
+        use: [
+          {
+            loader: "raw-loader",
+            options: {
+              esModule: false,
+            },
+          },
+        ],
       },
     ],
   },
